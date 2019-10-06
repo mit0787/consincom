@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Консинком</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__logo">www.consincom.ru</div>
-            <div class="header__phone"><a href="tel:+7(903)5775100">+7(903)577-51-00</a></div>
-            <h1 class="header__title">Консинком</h1>
-            <span class="header_subtitle">Официальный сайт международного знака обслуживания «JUINS»</span>
+            <div class="header__links">
+                <a href="www.consincom.ru" class="header__logo">www.consincom.ru</a>
+                <a href="tel:+7(903)5775100" class="header__phone">+7(903)577-51-00</a>
+            </div>
+            <div class="header__text">
+                <h1 class="header__title">Консинком</h1>
+                <span class="header__subtitle">Официальный сайт международного знака обслуживания «JUINS»</span>
+            </div>
         </div>
     </header>
     <nav class="nav">
@@ -27,19 +35,20 @@
     <main class="main">
         <div class="container">
             <span class="main__subtitle">Что такое знак обслуживания JUINS?</span>
-            <h2 class="main__tilte">JUINS - Инвестиционно-юридические стратегии – это:</h2>
-            <p class="main__description">предоставление аналитической информации о предлагаемых бизнес-проектах, по которым осуществляется
-            расчет экономической эффективности и целесообразности, вывод на рынок и их успешная реализация с
-            структурированной надстройкой профессионального юридического обслуживания</p>
+            <h2 class="main__title">JUINS - Инвестиционно-юридические стратегии –</h2>
+            <p class="main__description">это предоставление аналитической информации о предлагаемых бизнес-проектах, по
+                которым осуществляется
+                расчет экономической эффективности и целесообразности, вывод на рынок и их успешная реализация с
+                структурированной надстройкой профессионального юридического обслуживания.</p>
         </div>
     </main>
     <section class="section advantages">
         <div class="container">
             <h2 class="section__title">Мы предлагаем:</h2>
-            <ul class="advantages__list">
+            <ul class="section__list advantages__list">
                 <li>гарантированное качество услуг</li>
                 <li>сочетание профессионализма с простотой консультаций</li>
-                <li>сбалансированное соотношение цены и качества услуг</li>
+                <li>сбалансированное соотношение цены и качества</li>
                 <li>постоянное расширение географии услуг</li>
                 <li>быстрота и точность обслуживания</li>
                 <li>индивидуальный подход к каждому клиенту</li>
@@ -47,32 +56,35 @@
                 <li>разработка концепции эксклюзивности услуги</li>
                 <li>постоянный анализ правоприменительной практики</li>
             </ul>
-            <span class="section__subtitle">Это воплощение инноваций повседневного спроса.</span>
+            <span class="section__subtitle advantages__subtitle">Это воплощение инноваций повседневного спроса.</span>
         </div>
     </section>
     <section class="section offers">
         <div class="container">
-            <span class="section__subtitle">В России международный знак обслуживания JUINS успешно
+            <span class="section__subtitle offers__subtitle">В России международный знак обслуживания JUINS успешно
                 представляет компания ООО «КОНСИНКОМ», которое осуществляет следующие услуги:</span>
-                <ul class="offers__list">
-                    <li class="offers__item">Информационное и финансовое обеспечение бизнес-проектов</li>
-                    <li class="offers__item">Юридические услуги</li>
-                    <li class="offers__item">Организация высокотехнологичных игр</li>
-                    <li class="offers__item">Аренда частных автомобилей</li>
-                    <li class="offers__item">Разработка корпоративных сайтов</li>
-                </ul>
+            <ul class="section__list offers__list">
+                <li class="offers__item"><a href="#"> Информационное и финансовое обеспечение бизнес-проектов</a></li>
+                <li class="offers__item"><a href="#"> Юридические услуги</a></li>
+                <li class="offers__item"><a href="#"> Организация высокотехнологичных игр</a></li>
+                <li class="offers__item"><a href="#"> Аренда частных автомобилей</a></li>
+                <li class="offers__item"><a href="#"> Разработка корпоративных сайтов</a></li>
+            </ul>
         </div>
     </section>
     <footer class="footer">
         <div class="container">
-            <div class="header__logo">www.consincom.ru</div>
-            <ul class="menu-list footer-list">
-                <li class="menu-list__item"><a class="menu-list__link" href="#">Главная</a></li>
-                <li class="menu-list__item"><a class="menu-list__link" href="#">Услуги</a></li>
-                <li class="menu-list__item"><a class="menu-list__link" href="#">Контакты</a></li>
-            </ul>
-            <div class="header__phone"><a href="tel:+7(903)5775100">+7(903)577-51-00</a></div>
+            <div class="footer__links">
+                <a href="www.consincom.ru" class="header__logo">www.consincom.ru</a>
+                <ul class="menu-list footer__list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Главная</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Услуги</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Контакты</a></li>
+                </ul>
+                <div class="header__phone"><a href="tel:+7(903)5775100">+7(903)577-51-00</a></div>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
