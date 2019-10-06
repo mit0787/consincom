@@ -53,7 +53,10 @@ ul {
 
 .nav {
     padding: 20px 0;
-    background-color: rgb(0, 23, 56);
+    background-color: #001738;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .menu-list {
