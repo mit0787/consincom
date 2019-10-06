@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 ul {
@@ -26,7 +27,7 @@ ul {
     justify-content: space-around;
 }
 
-.header__links a{
+.header__links a {
     width: 150px;
     background-color: rgba(187, 214, 231, 0.7);
     color: rgb(0, 34, 85);
@@ -188,3 +189,58 @@ ul {
 .footer a:hover {
     color: #668ca3;
 }
+
+.juins {
+    background: url("../images/juins.jpg") #668ca3;
+}
+
+.games {
+    background: url("../images/games.jpg") #668ca3;
+}
+
+.sites {
+    background: url("../images/sites.jpeg") #668ca3;
+}
+
+.juins,
+.games,
+.sites {
+    background-repeat: no-repeat;
+    background-size: 110vh;
+    background-position: calc(100% - 49.2vw);
+}
+
+.section__text {
+    max-width: 50%;
+    text-align: justify;
+}
+
+.juins__text,
+.games__text,
+.sites__text {
+    margin-left: auto;
+    padding-left: 50px;
+}
+
+.law {
+    background: url("../images/laws.jpg");
+}
+
+.rent {
+    background: url("../images/rent.jpg");
+    background-repeat: no-repeat;
+    background-size: 110vh;
+    background-position: 50vw;
+}
+
+.law {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50vw;
+}
+
+.law__text,
+.rent__text {
+    padding-right: 50px;
+}
+
