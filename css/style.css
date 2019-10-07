@@ -191,15 +191,15 @@ ul {
 }
 
 .juins {
-    background: url("../images/juins.jpg") #668ca3;
+    background: url("../images/juins.jpg"), #668ca3;
 }
 
 .games {
-    background: url("../images/games.jpg") #668ca3;
+    background: url("../images/games.jpg"), #668ca3;
 }
 
 .sites {
-    background: url("../images/sites.jpeg") #668ca3;
+    background: url("../images/sites.jpeg"), #668ca3;
 }
 
 .juins,
@@ -244,3 +244,30 @@ ul {
     padding-right: 50px;
 }
 
+.upp p,
+.upp ol,
+.upp ul,
+.meat p,
+.leather p,
+.contacts ul {
+    text-align: justify;
+}
+
+.upp ul {
+   padding-left: 40px; 
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.backward {
+    display: block;
+    text-align: left;
+}
+
+.leather,
+.meat,
+.contacts {
+    min-height: calc(100vh - 136px);
+}
