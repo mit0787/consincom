@@ -253,8 +253,11 @@ ul {
     text-align: justify;
 }
 
-.upp ul {
-   padding-left: 40px; 
+.juins ul,
+.law ul,
+.upp ul,
+.upp ol {
+   padding-left: 20px; 
 }
 
 .underline {
