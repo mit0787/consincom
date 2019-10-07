@@ -132,7 +132,7 @@ ul {
     width: 5px;
     height: 5px;
     top: 5px;
-    left: 55px;
+    left: -20px;
     border: 2px solid rgba(0, 34, 85, 1);
     border-left-color: rgba(0, 34, 85, 0.5);
     border-right-color: rgba(0, 34, 85, 0.5);
@@ -273,4 +273,9 @@ ul {
 .meat,
 .contacts {
     min-height: calc(100vh - 136px);
+}
+
+.advantages__list {
+    text-align: left;
+    padding-left: 100px;
 }
