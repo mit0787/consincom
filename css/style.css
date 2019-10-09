@@ -206,7 +206,6 @@ ul {
 .games,
 .sites {
     background-repeat: no-repeat;
-    background-size: 110vh;
     background-position: calc(100% - 49.2vw);
 }
 
@@ -229,7 +228,6 @@ ul {
 .rent {
     background: url("../images/rent.jpg");
     background-repeat: no-repeat;
-    background-size: 110vh;
     background-position: 50vw;
 }
 
@@ -237,6 +235,10 @@ ul {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50vw;
+}
+
+.sites {
+    background-position-y: -75px; 
 }
 
 .law__text,
@@ -278,4 +280,91 @@ ul {
 .advantages__list {
     text-align: left;
     padding-left: 100px;
+}
+
+.offers__subtitle br {
+    display: none;
+}
+
+.contacts__list {
+    list-style: none;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+    .header {
+        background-size: cover;
+    }
+    .header__text {
+        margin: 10vh auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .advantages__list {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 769px) {
+    .footer__list {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header__title {
+        font-size: 36px;
+    }
+
+    .main {
+        padding-bottom: 50px;
+    }
+
+    .main__subtitle {
+        margin: 0;
+    }
+
+    .main__title {
+        font-size: 24px;
+    }
+
+    .main__description {
+        text-align: justify;
+    }
+
+    .section {
+        padding: 30px 0 50px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .advantages__list {
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .offers__subtitle {
+        font-size: 18px;
+    }
+
+    .offers__subtitle br {
+        display: block;
+    }
+
+    .offers__list {
+        font-size: 16px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
 }
