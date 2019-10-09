@@ -290,6 +290,54 @@ ul {
     list-style: none;
 }
 
+.menu-burger {
+    position: relative;
+}
+
+.menu-burger::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    top: 4px;
+    right: -15px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg);
+}
+
+.offers__burger {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 57px 0 0;
+    top: 0;
+    left: 30%;
+}
+
+.offers__burger li {
+ color: #fff;
+ padding: 10px;
+ background: #074164;
+}
+
+.offers__burger li:first-child {
+    padding-top: 20px;
+}
+
+.offers__burger li:last-child {
+    padding-bottom: 30px;
+}
+
+.menu-burger:hover + .offers__burger {
+    display: block;
+}
+
+.offers__burger:hover {
+    display: block;
+}
+
 @media (max-width: 1200px) {
     .container {
         padding: 0 30px;
