@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://consincom.ru
+Sitemap: https://consincom.ru/sitemap.xml

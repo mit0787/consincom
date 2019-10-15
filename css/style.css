@@ -268,7 +268,6 @@ ul {
 .juins,
 .games,
 .sites {
-    position: relative;
     background-repeat: no-repeat;
     background-position: calc(50vw - 1024px);
 }
@@ -276,21 +275,6 @@ ul {
 .section__text {
     max-width: 50%;
     text-align: justify;
-}
-
-.juins::after,
-.games::after,
-.sites::after {
-    content: "";
-    position: absolute;
-    z-index: -500;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(102, 140, 163);
-    background: linear-gradient(90deg, rgba(102, 140, 163, 1) 5%, rgba(255, 255, 255, 0) 20%);
-    background-repeat: no-repeat;
 }
 
 .juins__text,
@@ -316,24 +300,6 @@ ul {
     background-position: 50vw;
 }
 
-.law,
-.rent {
-    position: relative;
-}
-
-.law::after,
-.rent::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 95%);
-    background-repeat: no-repeat;
-}
-
 .sites {
     background-position-y: -75px; 
 }
@@ -348,14 +314,16 @@ ul {
 .upp ul,
 .meat p,
 .leather p,
-.contacts ul {
+.contacts ul,
+.waste p {
     text-align: justify;
 }
 
 .juins ul,
 .law ul,
 .upp ul,
-.upp ol {
+.upp ol,
+.waste__list {
    padding-left: 20px; 
 }
 
@@ -370,7 +338,8 @@ ul {
 
 .leather,
 .meat,
-.contacts {
+.contacts,
+.waste {
     min-height: calc(100vh - 136px);
 }
 
@@ -433,6 +402,11 @@ ul {
 
 .offers__burger:hover {
     display: block;
+}
+
+.waste__list {
+    text-align: left;
+    margin-bottom: 50px;
 }
 
 @media (min-width: 2200px) {
